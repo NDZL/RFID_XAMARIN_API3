@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="1-DISCOVER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1" />
+    <Button
+        android:text="2-CONNECT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="105dp"
+        android:id="@+id/button2" />
+    <Button
+        android:text="3-DISCON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="105dp"
+        android:id="@+id/button3" />
+    <Button
+        android:text="THRSH=-50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Thresh50"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"
+        android:background="#ff2eb04c" />
+    <Button
+        android:text="THRSH=-90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Thresh50"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="105dp"
+        android:id="@+id/Thresh90"
+        android:background="#ffcd2c2c" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="XAMARIN RFID READER BY N.DZL - ATHENS 2018"
+        android:id="@+id/tvStatus" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvStatus"
+        android:layout_marginBottom="50dp"
+        android:text="..."
+        android:id="@+id/tvTags" />
+</RelativeLayout>
